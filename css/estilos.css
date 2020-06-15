@@ -1,0 +1,31 @@
+body {
+  background-image: url('https://image.freepik.com/vetores-gratis/fundo-abstrato-azul-formas-geometricas_1035-17545.jpg');
+  background-size: auto 150vh;
+    font-family: Segoe UI;
+    
+}
+.menu{
+  background-color: white;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.menu li{
+  list-style: none;
+}
+.title, .sub-title{
+ color: blue;
+  font-family: Verdana;
+  text-align:center;
+}
+.sub-title{
+  font-style: italic;
+}
